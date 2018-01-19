@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/flexible.js"></script>
+    <script src="js/flexible_css.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+    <script src="js/jquery-1.11.1.js"></script>
+</head>
+<body>
+<div class="center">
+<header>
+    <div class="header">
+        <div class="ynz"><i class="iconfont icon-sanheng"></i></div>
+        <div></div>
+        <div><i class="iconfont icon-xiangbao"></i>(0)</div>
+        <div><i class="iconfont icon-fangdajing"></i></div>
+    </div>
+</header>
+<div class="header-header">
+      <div class="header-top">
+            <ul>
+                <li><a href="index1.html" style="color: black;">首页</a><img class="fxr" src="img/XXX.png" alt="" style="position: absolute;right: 0;width: 0.9rem"></li>
+                <li>全部分类</li>
+                <li>男士香水</li>
+                <li>女士香水</li>
+                <li>儿童香水</li>
+                <li>全部商品</li>
+                <li>人气衣橱</li>
+                <li>香水故事</li>
+                <li>香水百科</li>
+            </ul>
+        </div>
+      <div class="header-bottom">
+        <ul>
+            <li>
+                <i class="iconfont icon-wode"></i>
+                登录
+            </li>
+            <li>
+                <i class="iconfont icon-Pingjia"></i>
+                我的收藏
+            </li>
+        </ul>
+     </div>
+</div>
+    <script>
+        $(".header .ynz").click(function(){
+            $(".header-header").animate({"margin-left":"0"},1000)
+        })
+        $(".fxr").click(function(){
+            $(".header-header").animate({"margin-left":"-10rem"},1000)
+        })
+    </script>
+<div class="banner"></div>
+<footer>
+    <div class="footer-footer">
+        <div class="footer-one">
+            App下载
+        </div>
+        <div class="footer-two">
+            <ul>
+                <li>
+                    <img src="img/pingguo.png" alt="">
+                </li>
+                <li>
+                    <img src="img/anzhuo.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</div>
+</body>
+</html>

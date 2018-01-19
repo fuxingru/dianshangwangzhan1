@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.center{
+    width: 10rem;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+header{
+    width: 10rem;
+}
+.header::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.header{
+    width: 9.5rem;
+    margin: auto;
+    position: fixed;
+    background: #fff;
+    z-index: 99;
+}
+.header div:nth-child(1){
+    width: 1.466rem;
+    height: 1rem;
+    display: block;
+    float: left;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #c7b18c;
+}
+.header div:nth-child(1) i{
+    font-size: 19px;
+}
+[data-dpr="2"] .header div:nth-child(1) i{
+    font-size: 24px;
+}
+[data-dpr="3"] .header div:nth-child(1) i{
+    font-size: 52px;
+}
+.header div:nth-child(2){
+    width: 2.5rem;
+    height: 1.3rem;
+    background: url(../img/logo1.png) no-repeat;
+    background-size: 2.5rem 1.3rem;
+    float: left;
+    margin-top: 0.1rem;
+    margin-left: 2rem;
+}
+.header div:nth-child(3){
+    display: block;
+    float: left;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-left: 1.4rem;
+    color: #c7b18c;
+}
+.header div:nth-child(3) i{
+    font-size: 19px;
+}
+[data-dpr="2"] .header div:nth-child(3) i{
+    font-size:24px;
+}
+[data-dpr="3"] .header div:nth-child(3) i{
+    font-size: 52px;
+}
+.header div:nth-child(4){
+    display: block;
+    float: left;
+    margin-top: 0.5rem;
+    margin-left: 0.4rem;
+    color: #c7b18c;
+}
+.header div:nth-child(4) i{
+    font-size: 19px;
+}
+[data-dpr="2"] .header div:nth-child(4) i{
+    font-size: 24px;
+}
+[data-dpr="3"] .header div:nth-child(4) i{
+    font-size: 52px;}
+/*header-one开始*/
+.header-one{
+    width: 10rem;
+}
+.header-one-center{
+    width: 9rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+.header-one-center p{
+    width: 9rem;
+    line-height: 0.8rem;
+}
+.header-one-center-top p{
+    text-align: center;
+}
+.header-one-center p .img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+}
+.header-one-center-bottom{
+    margin-top: 0.8rem;
+}
+.header-one-center-bottom p{
+    width: 9rem;
+    line-height: 1rem;
+}
+.header-one-center-bottom p input{
+    width: 9rem;
+    border: 1px solid #4e525e;
+    line-height: 1rem;
+    padding-left: 0.3rem;
+}
+/*header-one结束*/
+/*banner开始*/
+.banner{
+    width: 10rem;
+    margin-top: 0.8rem;
+}
+.banner-center{
+    width: 9rem;
+    margin: auto;
+}
+.banner-center img{
+    width: 9rem;
+    height: 6rem;
+}
+/*banner结束*/
+/*banner-one开始*/
+.banner-one::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.banner-one{
+    width: 10rem;
+    margin-top: 0.8rem;
+}
+.banner-one-center::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.banner-one-center{
+    width: 9rem;
+    margin: auto;
+}.banner-one-center div{
+    float: left;
+ }
+.banner-one-center div:nth-child(1){
+    width: 3rem;
+    border-bottom: 4px solid #4e525e;
+    padding-top: 0.5rem;
+}
+.banner-one-center div:nth-child(2){
+    width: 3rem;
+    font-size: 0.5rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.banner-one-center div:nth-child(3){
+    width: 3rem;
+    border-bottom: 4px solid #4e525e;
+    padding-top: 0.5rem;
+}
+/*banner-one结束*/
+/*banner-two开始*/
+.banner-two{
+    width: 10rem;
+    margin-top: 0.8rem;
+}
+.banner-two-center{
+    width: 9rem;
+    margin: auto;
+    background: #c2c4c7;
+}
+.swiper-container{
+    width: 9rem;
+    margin: auto;
+    height: 4rem;
+}
+.swiper-container .swiper-slide p{
+    line-height: 1rem;
+  text-align: center;
+    padding-top: 0.8rem;
+}
+/*banner-two结束*/
+/*banner-four开始*/
+.banner-four{
+    width: 10rem;
+    margin-bottom: 2rem;
+}
+.banner-four p{
+    width: 9rem;
+    margin: 1rem auto;
+    font-weight: bold;
+    font-size: 0.4rem;
+    text-align: center;
+}
+.banner-four ul::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+.banner-four ul{
+    width: 6rem;
+    margin: auto;
+    list-style: none;
+}
+.banner-four ul li{
+    width: 2rem;
+    float: left;
+    line-height: 1rem;
+    text-align: center;
+}
+.banner-four ul li img{
+    width: 0.5rem;
+}
+/*banner-four结束*/
+/*banner-five开始*/
+.banner-five{
+    width: 10rem;
+    display: none;
+}
+.banenr-five-center{
+    width: 9rem;
+}
+.banenr-five-center p{
+    width: 9rem;
+    line-height: 1.8rem;
+    border-bottom: 1px solid #4e525e;
+}
+.banenr-five-center p img{
+    width: 0.5rem;
+}
+.banenr-five-center p span{
+    font-size: 0.4rem;
+}
+.banenr-five-center ul{
+    margin-top: 0.6rem;
+    width: 9rem;
+}
+.banenr-five-center ul li{
+    width: 9rem;
+    font-size: 0.4rem;
+    line-height: 0.8rem;
+}
+/*banner-five结束*/
+/*footer开始*/
+.footer{
+    width: 10rem;
+    height: 1.5rem;
+    background: #4e525e;
+    position: fixed;
+    bottom:0;
+}
+.footer ul li{
+    width: 2rem;
+    height: 1rem;
+    float: left;
+    margin-top: 0.18rem;
+    margin-left: -0.1rem;
+}
+.footer ul li i{
+    font-size: 20px;
+    margin-left: 1rem;
+    color: #e1e1e1;
+}
+.footer ul li i a{
+    text-decoration: none;
+}
+.footer ul li p{
+    margin-top: 0.2rem;
+    text-align: center;
+    font-size: 10px;
+    margin-left: 0.5rem;
+    color:#c3c6ca;
+}
+[data-dpr="2"] .footer ul li p{
+    font-size: 20px;
+}
+[data-dpr="3"] .footer ul li p{
+    font-size: 30px;
+}
+[data-dpr="2"] .footer ul li i{
+    font-size: 40px;
+}
+[data-dpr="3"] .footer ul li i{
+    font-size: 60px;
+}
+/*footer结束*/

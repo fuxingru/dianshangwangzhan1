@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/flexible.js"></script>
+    <script src="js/flexible_css.js"></script>
+    <link rel="stylesheet" href="css/style5.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/jquery-1.11.1.js"></script>
+</head>
+<body>
+<div class="center">
+    <header>
+        <div class="header">
+            <div class="ynz"><i class="iconfont icon-sanheng"></i></div>
+            <div></div>
+            <div><i class="iconfont icon-xiangbao"></i>(0)</div>
+            <div><i class="iconfont icon-fangdajing"></i></div>
+        </div>
+    </header>
+<!--header-one开始-->
+    <div class="header-one">
+        <div class="header-one-center">
+            <div class="header-one-center-top" style="margin-top: 1.8rem">
+                <p><img class="img" src="img/fivetouxiang.jpg" alt=""></p>
+                <p style="text-align: center;font-size: 0.3rem">最后一次登 18-1-6</p>
+            </div>
+            <div class="header-one-center-bottom">
+                <p style="position: relative"><input type="text" placeholder="我的账户"><img  class="xiala" src="img/fivexiala.png" alt="" style="position: absolute;top: 0.2rem;right: 0.5rem;width: 0.5rem;"></p>
+                <!--banner-five开始-->
+                <div class="banner-five">
+                    <div class="banenr-five-center">
+                        <p><img src="img/fense_03.png" alt=""><span>我的账户-登录中</span></p>
+                        <ul>
+                            <li>类别</li>
+                            <li>最受欢迎</li>
+                            <li>最新产品</li>
+                            <li style="color: #bd0e33">Top 明星单品</li>
+                            <li style="color: #bd0e33">特别活动</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--banner-five结束-->
+                <p style="text-align: center;font-size: 0.7rem;margin-top: 0.5rem">我的账户</p>
+                <p style="font-size: 0.5rem;font-weight: bold;margin-top: 0.5rem">我目前的订单</p>
+                <a href="inedx6.html" style="text-decoration: none;color: black"><p style="font-size: 0.3rem">请查询</p></a>
+            </div>
+        </div>
+    </div>
+<!--header-one结束-->
+<!--banner开始-->
+    <div class="banner">
+        <div class="banner-center">
+            <img src="img/fivexiangshui.jpg" alt="">
+        </div>
+    </div>
+    <script>
+        $(".xiala").click(function(){
+            $(".banner-five").slideToggle();
+        })
+    </script>
+<!--banner结束-->
+<!--banner-one开始-->
+    <div class="banner-one">
+        <div class="banner-one-center">
+            <div></div>
+            <div>官网独享</div>
+            <div></div>
+        </div>
+    </div>
+<!--banner-one结束-->
+<!--banner-two开始-->
+    <div class="banner-two">
+        <div class="banner-two-center">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><p style="font-size: 0.5rem;font-weight: bold">免费送货</p><p style="font-size: 0.3rem;">订单满588即可享用</p></div>
+                    <div class="swiper-slide"><p style="font-size: 0.5rem;font-weight: bold">明星产品</p><p style="font-size: 0.3rem;">先试后买</p></div>
+                    <div class="swiper-slide"><p style="font-size: 0.5rem;font-weight: bold">会员俱乐部</p><p style="font-size: 0.3rem;">1元=100积分</p></div>
+                    <div class="swiper-slide"><p style="font-size: 0.5rem;font-weight: bold">联系我们</p><p style="font-size: 0.3rem;">400-800-600</p></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- Swiper JS -->
+            <script src="js/swiper.min.js"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                    autoplay:true,
+                    loop:true,
+                });
+            </script>
+        </div>
+    </div>
+<!--banner-two结束-->
+<!--banner-four开始-->
+    <div class="banner-four">
+        <p>关注我们</p>
+        <ul>
+            <li><img src="img/未标题-2_03.png" alt=""></li>
+            <li><img src="img/未标题-2_04_03.png" alt=""></li>
+            <li><img src="img/未标题-5_03.png" alt=""></li>
+        </ul>
+    </div>
+<!--banner-four结束-->
+    <!--footerkaishi-->
+    <div class="footer">
+        <ul>
+            <li><a href=""><i class="iconfont icon-shouye"></i></a><p>首页</p></li>
+            <li><a href=""><i class="iconfont icon-fujin"></i></a><p>附近</p></li>
+            <li><a href=""><i class="iconfont icon-diqiu"></i></a><p>发现</p></li>
+            <li><a href="inedx6.html" style="text-decoration: none;color: black"><i class="iconfont icon-dingdan"></i></a><p>订单</p></li>
+            <li><a href="index5.html"><i class="iconfont icon-huiyuan-copy"></i></a><p>我的</p></li>
+        </ul>
+    </div>
+    <!--footer结束-->
+</div>
+
+</body>
+</html>

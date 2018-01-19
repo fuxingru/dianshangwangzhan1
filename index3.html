@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/flexible.js"></script>
+    <script src="js/flexible_css.js"></script>
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/jquery-1.11.1.js"></script>
+</head>
+<body>
+<div class="center">
+<!--header开始-->
+    <header>
+        <div class="header">
+            <div class="ynz"><i class="iconfont icon-sanheng"></i></div>
+            <div></div>
+            <div><i class="iconfont icon-xiangbao"></i>(0)</div>
+            <div><i class="iconfont icon-fangdajing"></i></div>
+        </div>
+    </header>
+    <div class="header-header" style="z-index: 99">
+        <div class="header-top">
+            <ul>
+                <li><a href="index1.html" style="color: black;">首页</a><img class="fxr" src="img/XXX.png" alt="" style="position: absolute;right: 0;width: 0.9rem"></li>
+                <li>全部分类</li>
+                <li>男士香水</li>
+                <li>女士香水</li>
+                <li>儿童香水</li>
+                <li>全部商品</li>
+                <li>人气衣橱</li>
+                <li>香水故事</li>
+                <li>香水百科</li>
+            </ul>
+        </div>
+        <div class="header-bottom">
+            <ul>
+                <li>
+                    <i class="iconfont icon-wode"></i>
+                    <a href="index4.html" style="text-decoration: none;color: black">登录</a>
+                </li>
+                <li>
+                    <i class="iconfont icon-Pingjia"></i>
+                    我的收藏
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        $(".header .ynz").click(function(){
+            $(".header-header").animate({"margin-left":"0"},1000)
+        })
+        $(".fxr").click(function(){
+            $(".header-header").animate({"margin-left":"-10rem"},1000)
+        })
+    </script>
+<!--header结束-->
+<!--banner开始-->
+    <div class="banner">
+        <p>BURBERRY</p>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background:url('img/43.jpg')no-repeat;background-size: 10rem 10rem"></div>
+                <div class="swiper-slide" style="background:url('img/42.jpg')no-repeat;background-size: 10rem 10rem"></div>
+                <div class="swiper-slide" style="background:url('img/44.jpg')no-repeat;background-size: 10rem 10rem"></div>
+                <div class="swiper-slide" style="background:url('img/43.jpg')no-repeat;background-size: 10rem 10rem"></div>
+                <div class="swiper-slide" style="background:url('img/42.jpg')no-repeat;background-size: 10rem 10rem"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            autoplay:true,
+            loop:true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows : true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+<!--banner结束-->
+<!--banner-one开始-->
+    <div class="banner-one">
+        <div class="banner-one-top">
+            <p>My Burberry 我的博柏利黑色香精  30ml</p>
+            <p>¥715.00</p>
+            <p>商品 40115601</p>
+        </div>
+        <div class="banner-one-center">
+            <p>规格 30ml</p>
+        </div>
+        <div class="banner-one-bottom">
+            <div class="banner-one-bottom-o">
+                <ul><li class="gouwudai">
+                    <div class="xing">
+                    <img src="img/xing.png" alt="" style="width:0.7rem">
+                </div>加入购物袋
+                    </li>
+                    <li style="margin-left: 0.2rem;background: #a31826">结账</li></ul>
+            </div>
+            <div class="banner-one-bottom-n">
+                <p>查看精品店库存</p>
+                <p>店内取货</p>
+                <p>需要帮助？敬请致电:13935224364</p>
+                <p>普通话服务（09:00 - 19:00 北京时间） </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(".gouwudai").click(function(){
+            $(".xing").animate({"opacity":"1","top":"-0.9rem"},function(){
+                $(".xing").animate({"opacity":"0"},function(){
+                    $(".xing").animate({"top":"-0.4rem"})
+                })
+            })
+        })
+    </script>
+<!--banner-one结束-->
+<!--banner-two开始-->
+    <div class="banner-two">
+        <p style="color: #4e525e;font-size: 0.3rem">商品详情</p>
+        <p>倾心推介「My Burberry Black 我的博柏利黑色香精」，加入 My Burberry 香氛系列阵营，倾心秉承了与品牌标志性 Heritage Trench 风衣同样的锐意革新理念、精湛匠艺以及独到艺术审美。</p>
+        <p>黑色香精由 Christopher Bailey 携手全球调香大师 Francis Kurkdjian 倾力缔造，重新诠释了浓郁热烈的香调。黑色香精再次围绕伦敦花园为中心展开主题创作，此次的灵感素材取自暴风雨来临前夕的都市花园景象，风雨交加的天气与热情绽放的花朵形成鲜明反差，愈加烘托出生机盎然、优雅迷人的花园美景。</p>
+        <p>黑色香精蕴含洒满雨后阳光的茉莉花香和浪漫醉人的桃花蜜香，并透着一丝性感诱惑的玫瑰花香。玫瑰中调为 My Burberry 香氛系列的标志性经典香调，此次在黑色香精中匠心融入了甜怡诱人的蜜糖香，彰显柔媚韵致；而基调则由浓郁热烈的琥珀广藿香收就，营造深邃迷人气息。</p>
+        <p>饱满富郁的琥珀色玻璃瓶身设计，瓶颈处匠心系扎黑色嘎巴甸手工结饰，搭配优雅高贵的深色牛角质感瓶盖，灵感源自标志性 Burberry Trench 风衣的纽扣元素。 </p>
+    </div>
+<!--banner-two结束-->
+<!--banner-three开始-->
+    <div class="banner-three">
+        <p>配送及退货</p>
+        <div class="banner-three-bottom">
+            <img src="img/ff1 (1).jpg" alt="">
+            <img src="img/ff1 (2).jpg" alt="">
+            <img src="img/ff1 (3).jpg" alt="">
+            <img src="img/ff1 (4).jpg" alt="">
+        </div>
+    </div>
+<!--banner-three结束-->
+<!--banner-four开始-->
+    <div class="banner-four">
+        <p>分享该商品</p>
+        <ul>
+            <li><img src="img/未标题-2_03.png" alt=""></li>
+            <li><img src="img/未标题-2_04_03.png" alt=""></li>
+            <li><img src="img/未标题-5_03.png" alt=""></li>
+        </ul>
+    </div>
+<!--banner-four结束-->
+
+    <!--footerkaishi-->
+    <div class="footer">
+        <ul>
+            <li><a href=""><i class="iconfont icon-shouye"></i></a><p>首页</p></li>
+            <li><a href=""><i class="iconfont icon-fujin"></i></a><p>附近</p></li>
+            <li><a href=""><i class="iconfont icon-diqiu"></i></a><p>发现</p></li>
+            <li><a href="inedx6.html"><i class="iconfont icon-dingdan"></i></a><p>订单</p></li>
+            <li><a href="index5.html"><i class="iconfont icon-huiyuan-copy"></i></a><p>我的</p></li>
+        </ul>
+    </div>
+    <!--footer结束-->
+</div>
+</body>
+</html>

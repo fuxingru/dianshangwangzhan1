@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.center{
+    width: 10rem;
+    margin: auto;
+}
+header{
+    width: 10rem;
+    height: 1.7rem;
+    background: url("../img/threeng.jpg") no-repeat;
+    background-size: 10rem 1.7rem;
+}
+/*header-one开始*/
+.header-one{
+    width: 10rem;
+    position: relative;
+    border-bottom: 1px solid #c3c6ca;
+}
+.header-one-top{
+    width: 10rem;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 0.4rem;
+}
+.header-one-top img{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 6rem;
+}
+.header-one-bottom{
+    width: 10rem;
+    position: relative;
+    margin-top: 0.5rem;
+}
+.header-one-bottom input{
+    width: 8rem;
+    height: 1rem;
+    margin-left: 1rem;
+    border: 1px solid #000;
+    margin-bottom: 0.3rem;
+    font-size: 0.4rem;
+    padding-left: 0.12rem;
+}
+.header-one-bottom img{
+    width: 0.28rem;
+    position: absolute;
+    top: 0.4rem;
+    right: 1.4rem;
+}
+    /*header-one结束*/
+/*header-two开始*/
+.header-two{
+    width: 10rem;
+    margin-top: 0.2rem;
+    display: none;
+}
+.header-two input{
+    width: 8rem;
+    height: 1rem;
+    margin-left: 1rem;
+    border: 1px solid #000;
+    margin-bottom: 0.3rem;
+    font-size: 0.4rem;
+    padding-left: 0.12rem;
+}
+/*header-two结束*/
+/*banner开始*/
+.banner{
+    width: 10rem;
+    background: white;
+}
+.banne-one ul{
+    list-style: none;
+}
+.banne-one ul li{
+    width: 5rem;
+    text-align: center;
+    float: left;
+    font-size: 0.3rem;
+    line-height: 0.5rem;
+    padding-bottom: 0.4rem;
+    border: 0.007rem solid #000;
+    overflow: hidden;
+}
+.banne-one ul li .da{
+    width: 5rem;
+    height: 5rem;
+}
+.banne-one ul li p:nth-child(5){
+    width: 4rem;
+    line-height: 1rem;
+    background: black;
+    color: white;
+    margin: auto;
+}
+/*banner结束*/
+/*footer开始*/
+
+footer{
+    width: 10rem;
+    background: black;
+    display: table;
+    clear: both;
+    content: "";
+}
+.footer{
+    width: 9rem;
+    margin: auto;
+    color: white;
+}
+.footer{
+    width: 9rem;
+    text-align: center;
+    line-height: 0.7rem;
+    font-size: 0.3rem;
+}
+/*footer结束*/
